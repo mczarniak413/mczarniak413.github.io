@@ -1,1 +1,80 @@
-<html><body>Tesla Fleet API key host</body></html>
+<!DOCTYPE html>
+<!-- NOTE: This repo also hosts the Tesla Fleet public key at
+     /.well-known/appspecific/com.tesla.3p.public-key.pem (a separate file).
+     Replacing this index.html does NOT affect that key. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Czarniak Residence — Home Automation SMS Alerts</title>
+<style>
+  :root{--fg:#1a1f2b;--muted:#5b6472;--accent:#2563eb;--line:#e4e7ec;--bg:#f7f8fa}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:var(--bg);line-height:1.55}
+  .wrap{max-width:720px;margin:0 auto;padding:32px 20px 64px}
+  header{border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:24px}
+  h1{font-size:26px;margin:0 0 4px}
+  h2{font-size:18px;margin:28px 0 8px}
+  .sub{color:var(--muted);font-size:14px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px;margin:18px 0}
+  ul{padding-left:20px}
+  li{margin:4px 0}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:11px 18px;border-radius:10px;font-weight:600;margin-top:8px}
+  .links a{margin-right:16px}
+  a{color:var(--accent)}
+  .addr{font-style:normal}
+  footer{margin-top:40px;border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font-size:13px}
+  code{background:#eef1f6;padding:1px 6px;border-radius:6px;font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Czarniak Residence</h1>
+    <div class="sub">Private home-automation &amp; security notification service</div>
+  </header>
+
+  <p>The Czarniak Residence operates a private home-automation system for its household in
+  Boulder City, Nevada. As part of that system, we send automated <strong>SMS text alerts</strong>
+  to household members about the status of home security devices &mdash; primarily residential
+  garage doors.</p>
+
+  <h2>Our SMS alert program</h2>
+  <div class="card">
+    <p>Our system automatically texts household members when a garage door is left open for an
+    extended period. The alert includes a secure link to close the door remotely, and a follow-up
+    text confirms once the door is closed.</p>
+    <ul>
+      <li><strong>Message types:</strong> automated garage-door-open security alerts and closed confirmations only.</li>
+      <li><strong>Frequency:</strong> varies &mdash; sent only when a door is left open, typically a few times per week or fewer.</li>
+      <li><strong>No marketing:</strong> this program sends no promotional or marketing messages of any kind.</li>
+      <li><strong>Recipients:</strong> household residents only &mdash; no public sign-up, no purchased lists, no third parties.</li>
+    </ul>
+    <a class="btn" href="sms-optin.html">View the SMS opt-in &amp; consent details &rarr;</a>
+  </div>
+
+  <h2>Consent, opt-out &amp; help</h2>
+  <ul>
+    <li>Each recipient actively enrolls their own mobile number and agrees to the consent statement on our
+        <a href="sms-optin.html">opt-in page</a>. Consent is not a condition of any purchase.</li>
+    <li>Reply <code>STOP</code> to any message to unsubscribe and stop all further texts.</li>
+    <li>Reply <code>HELP</code> for assistance, or email us at the address below.</li>
+    <li>Message and data rates may apply. Message frequency varies.</li>
+  </ul>
+
+  <h2>Policies</h2>
+  <p class="links">
+    <a href="sms-optin.html">SMS Opt-In</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms &amp; Conditions</a>
+  </p>
+
+  <footer>
+    <strong>Czarniak Residence</strong><br>
+    <address class="addr">1518 Marita Drive, Boulder City, NV 89005, United States</address>
+    Contact: <a href="mailto:mczarniak413@yahoo.com">mczarniak413@yahoo.com</a><br>
+    This is a private, non-commercial household notification program.
+  </footer>
+</div>
+</body>
+</html>
